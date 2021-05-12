@@ -36,7 +36,7 @@ body {
     background: #ddd;
   }
   ul li.checked {
-    background: teal;
+    background: rgb(0, 55, 128);
     color: white;
     text-decoration: line-through;
   }
@@ -62,11 +62,11 @@ body {
   }
   
   .close:hover {
-    background-color: crimson;
+    background-color: rgb(67, 220, 20);
     color: white;
   }
   .header {
-    background-color: crimson;
+    background-color: rgb(19, 187, 4);
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -107,10 +107,10 @@ body {
     font-size: xx-large;
     font-family: "Times New Roman";
     margin: 40px 35%;
-    background-color: darkblue;
+    background-color: rgb(139, 28, 0);
     color: white;
   }
   #clear-list:hover{
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
     color: white;
   }
