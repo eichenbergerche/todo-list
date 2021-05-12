@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\to do list.css">
+    <title>TODO List</title>
+</head>
+
+  <body>
+
+    <div class="header">
+      <h2 style="margin:5px">To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Agregar</span>
+    </div>
+
+    <ul id="myUL">
+      <li class="checked">Entregar TP Laboratorio</li>
+      <li>Terminar Apuntes base de datos</li>
+      <li>Read a book on JavaScript</li>
+      <li class="checked">Ordenar archivos en carpeta programacion</li>
+      <li>Hacer TP Sistemas Administrativos</li>
+      <li>Estudiar 2hs Ingles</li>
+      <li>Hacerme un Tere</li>
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">Borrar Lista Completa</button>
+
+    <script type="text/javascript" src="js\to do list.js"></script>
+
+  </body>
+</html>
