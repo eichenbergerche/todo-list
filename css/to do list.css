@@ -109,8 +109,12 @@ body {
     margin: 40px 35%;
     background-color: rgb(139, 28, 0);
     color: white;
+    border-radius: 20px;
+    transition: all 300ms;
   }
   #clear-list:hover{
     background-color: rgb(255, 1, 0);
     color: white;
+    transform: translateY(-10px);
+    transition: all 300ms;
   }
